@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AtlExceptionServer", "AtlExceptionServer\AtlExceptionServer.vcxproj", "{5BF14259-DBE1-48E1-801A-169AC1E546A1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D76F0CC2-608F-4C86-9836-90A6EE0A4A9A} = {D76F0CC2-608F-4C86-9836-90A6EE0A4A9A}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AtlExceptionServerPS", "AtlExceptionServerPS\AtlExceptionServerPS.vcxproj", "{48556CA1-85F0-4647-B1D5-CF8053D5E911}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5BF14259-DBE1-48E1-801A-169AC1E546A1} = {5BF14259-DBE1-48E1-801A-169AC1E546A1}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AtlExceptionClientApp", "AtlExceptionClientApp\AtlExceptionClientApp.vcxproj", "{D76F0CC2-608F-4C86-9836-90A6EE0A4A9A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5BF14259-DBE1-48E1-801A-169AC1E546A1}.Debug|ARM.ActiveCfg = Debug|Win32
+		{5BF14259-DBE1-48E1-801A-169AC1E546A1}.Debug|ARM64.ActiveCfg = Debug|Win32
+		{5BF14259-DBE1-48E1-801A-169AC1E546A1}.Debug|x64.ActiveCfg = Debug|x64
+		{5BF14259-DBE1-48E1-801A-169AC1E546A1}.Debug|x64.Build.0 = Debug|x64
+		{5BF14259-DBE1-48E1-801A-169AC1E546A1}.Debug|x86.ActiveCfg = Debug|Win32
+		{5BF14259-DBE1-48E1-801A-169AC1E546A1}.Debug|x86.Build.0 = Debug|Win32
+		{5BF14259-DBE1-48E1-801A-169AC1E546A1}.Release|ARM.ActiveCfg = Release|Win32
+		{5BF14259-DBE1-48E1-801A-169AC1E546A1}.Release|ARM64.ActiveCfg = Release|Win32
+		{5BF14259-DBE1-48E1-801A-169AC1E546A1}.Release|x64.ActiveCfg = Release|x64
+		{5BF14259-DBE1-48E1-801A-169AC1E546A1}.Release|x64.Build.0 = Release|x64
+		{5BF14259-DBE1-48E1-801A-169AC1E546A1}.Release|x86.ActiveCfg = Release|Win32
+		{5BF14259-DBE1-48E1-801A-169AC1E546A1}.Release|x86.Build.0 = Release|Win32
+		{48556CA1-85F0-4647-B1D5-CF8053D5E911}.Debug|ARM.ActiveCfg = Debug|Win32
+		{48556CA1-85F0-4647-B1D5-CF8053D5E911}.Debug|ARM64.ActiveCfg = Debug|Win32
+		{48556CA1-85F0-4647-B1D5-CF8053D5E911}.Debug|x64.ActiveCfg = Debug|x64
+		{48556CA1-85F0-4647-B1D5-CF8053D5E911}.Debug|x86.ActiveCfg = Debug|Win32
+		{48556CA1-85F0-4647-B1D5-CF8053D5E911}.Release|ARM.ActiveCfg = Release|Win32
+		{48556CA1-85F0-4647-B1D5-CF8053D5E911}.Release|ARM64.ActiveCfg = Release|Win32
+		{48556CA1-85F0-4647-B1D5-CF8053D5E911}.Release|x64.ActiveCfg = Release|x64
+		{48556CA1-85F0-4647-B1D5-CF8053D5E911}.Release|x86.ActiveCfg = Release|Win32
+		{D76F0CC2-608F-4C86-9836-90A6EE0A4A9A}.Debug|ARM.ActiveCfg = Debug|Win32
+		{D76F0CC2-608F-4C86-9836-90A6EE0A4A9A}.Debug|ARM64.ActiveCfg = Debug|Win32
+		{D76F0CC2-608F-4C86-9836-90A6EE0A4A9A}.Debug|x64.ActiveCfg = Debug|x64
+		{D76F0CC2-608F-4C86-9836-90A6EE0A4A9A}.Debug|x64.Build.0 = Debug|x64
+		{D76F0CC2-608F-4C86-9836-90A6EE0A4A9A}.Debug|x86.ActiveCfg = Debug|Win32
+		{D76F0CC2-608F-4C86-9836-90A6EE0A4A9A}.Debug|x86.Build.0 = Debug|Win32
+		{D76F0CC2-608F-4C86-9836-90A6EE0A4A9A}.Release|ARM.ActiveCfg = Release|Win32
+		{D76F0CC2-608F-4C86-9836-90A6EE0A4A9A}.Release|ARM64.ActiveCfg = Release|Win32
+		{D76F0CC2-608F-4C86-9836-90A6EE0A4A9A}.Release|x64.ActiveCfg = Release|x64
+		{D76F0CC2-608F-4C86-9836-90A6EE0A4A9A}.Release|x64.Build.0 = Release|x64
+		{D76F0CC2-608F-4C86-9836-90A6EE0A4A9A}.Release|x86.ActiveCfg = Release|Win32
+		{D76F0CC2-608F-4C86-9836-90A6EE0A4A9A}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {89028CD0-9A8A-4FBA-9990-4D7B704FFCE3}
+	EndGlobalSection
+EndGlobal
